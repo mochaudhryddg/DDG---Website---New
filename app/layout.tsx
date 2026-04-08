@@ -26,11 +26,20 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Dot Dot Growth — Performance Marketing Agency",
   description:
-    "We build paid media systems for DTC and B2B brands. From creative to conversion, every dollar is tracked, tested, and scaled.",
+    "We build paid media systems for ambitious businesses. From creative to conversion, every dollar is tracked, tested, and scaled.",
   openGraph: {
     title: "Dot Dot Growth",
     description: "Performance marketing that actually performs.",
     type: "website",
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.png", type: "image/png", sizes: "32x32" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180" },
+    ],
   },
 };
 
